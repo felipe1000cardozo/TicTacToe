@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Velha</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <main>
+        <h2 id="msg">Vez de </h2>
+        <div id="tabuleiro">
+            <div class="linha">
+                <div class="casa" id="c1" onclick="jogada(0)"></div>
+                <div class="casa" id="c2" onclick="jogada(1)"></div>
+                <div class="casa" id="c3" onclick="jogada(2)"></div>
+            </div>
+            <div class="linha">
+                <div class="casa" id="c4" onclick="jogada(3)"></div>
+                <div class="casa" id="c5" onclick="jogada(4)"></div>
+                <div class="casa" id="c6" onclick="jogada(5)"></div>
+            </div>
+            <div class="linha">
+                <div class="casa" id="c7" onclick="jogada(6)"></div>
+                <div class="casa" id="c8" onclick="jogada(7)"></div>
+                <div class="casa" id="c9" onclick="jogada(8)"></div>
+            </div>
+        </div>
+        <button onclick="reset()">Jogar novamente!</button>
+    </main>
+    <script src="js/script.js"></script>
+</body>
+</html>
